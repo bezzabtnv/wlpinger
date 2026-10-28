@@ -1,0 +1,71 @@
+inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited LabelURL: TLabel
+    Size.Width = 480.000000000000000000
+    inherited info: TButton
+      Position.X = 441.600006103515600000
+      Scale.X = 0.800000011920929000
+      Scale.Y = 0.800000011920929000
+      Size.Height = 43.750000000000000000
+    end
+  end
+  inherited edtURL: TEdit
+    Size.Width = 460.000000000000000000
+    inherited btnLoadURL: TButton
+      Position.X = 360.000000000000000000
+    end
+  end
+  inherited ProgressBar1: TProgressBar
+    Position.Y = 751.000000000000000000
+    Size.Width = 460.000000000000000000
+  end
+  inherited LabelList: TLabel
+    Touch.InteractiveGestures = [LongTap]
+    Size.Width = 460.000000000000000000
+    inherited btnClearList: TButton
+      Position.X = 360.000000000000000000
+    end
+    inherited btnPasteFromClipboard: TButton
+      Position.X = 200.000000000000000000
+    end
+  end
+  inherited MemoList: TMemo
+    Size.Width = 460.000000000000000000
+    Size.Height = 217.000000000000000000
+    Viewport.Width = 460.000000000000000000
+    Viewport.Height = 217.000000000000000000
+  end
+  inherited LabelLog: TLabel
+    Position.Y = 419.000000000000000000
+    Size.Width = 460.000000000000000000
+    inherited lblStatus: TLabel
+      Position.X = 330.000000000000000000
+    end
+  end
+  inherited MemoLog: TMemo
+    Size.Width = 460.000000000000000000
+    Size.Height = 297.000000000000000000
+    Viewport.Width = 460.000000000000000000
+    Viewport.Height = 297.000000000000000000
+  end
+  inherited StyleBook1: TStyleBook
+    Left = 104
+    Top = 68
+  end
+  inherited Panel1: TPanel
+    Position.Y = 339.000000000000000000
+    Size.Width = 460.000000000000000000
+    inherited btnStop: TButton
+      Size.Width = 250.000000000000000000
+    end
+    inherited CheckBox1: TCheckBox
+      Size.Width = 460.000000000000000000
+    end
+  end
+  inherited Image1: TImage
+    Position.Y = 769.000000000000000000
+    Size.Width = 460.000000000000000000
+  end
+end

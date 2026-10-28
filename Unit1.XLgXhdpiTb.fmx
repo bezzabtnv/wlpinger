@@ -1,0 +1,88 @@
+inherited Form1_XLgXhdpiTb: TForm1_XLgXhdpiTb
+  ClientHeight = 1255
+  ClientWidth = 800
+  DesignerMasterStyle = 3
+  inherited LabelURL: TLabel
+    Size.Width = 800.000000000000000000
+    Size.Height = 40.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    inherited info: TButton
+      Position.X = 766.400024414062500000
+      Size.Width = 47.999938964843750000
+      Size.Height = 57.142860412597660000
+    end
+  end
+  inherited edtURL: TEdit
+    TextSettings.Font.Size = 14.000000000000000000
+    Position.Y = 50.000000000000000000
+    Size.Width = 780.000000000000000000
+    inherited btnLoadURL: TButton
+      Position.X = 680.000000000000000000
+    end
+  end
+  inherited ProgressBar1: TProgressBar
+    Position.Y = 1177.000000000000000000
+    Size.Width = 780.000000000000000000
+  end
+  inherited LabelList: TLabel
+    Touch.InteractiveGestures = [LongTap]
+    Position.Y = 87.000000000000000000
+    Size.Width = 780.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    inherited btnClearList: TButton
+      Position.X = 680.000000000000000000
+      TextSettings.Font.Size = 14.000000000000000000
+    end
+    inherited btnPasteFromClipboard: TButton
+      Position.X = 520.000000000000000000
+    end
+  end
+  inherited MemoList: TMemo
+    Position.Y = 127.000000000000000000
+    Size.Width = 780.000000000000000000
+    Size.Height = 340.000000000000000000
+    Viewport.Width = 780.000000000000000000
+    Viewport.Height = 340.000000000000000000
+  end
+  inherited LabelLog: TLabel
+    Position.Y = 567.000000000000000000
+    Size.Width = 780.000000000000000000
+    Size.Height = 40.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    inherited lblStatus: TLabel
+      Position.X = 650.000000000000000000
+      Size.Height = 40.000000000000000000
+      TextSettings.Font.Size = 14.000000000000000000
+    end
+  end
+  inherited MemoLog: TMemo
+    Size.Width = 780.000000000000000000
+    Size.Height = 570.000000000000000000
+    Viewport.Width = 780.000000000000000000
+    Viewport.Height = 570.000000000000000000
+  end
+  inherited Panel1: TPanel
+    Position.Y = 467.000000000000000000
+    Size.Width = 780.000000000000000000
+    Size.Height = 100.000000000000000000
+    inherited btnStart: TButton
+      Size.Height = 50.000000000000000000
+      TextSettings.Font.Size = 14.000000000000000000
+    end
+    inherited btnStop: TButton
+      Size.Width = 570.000000000000000000
+      Size.Height = 50.000000000000000000
+      TextSettings.Font.Size = 14.000000000000000000
+    end
+    inherited CheckBox1: TCheckBox
+      Position.Y = 55.000000000000000000
+      Size.Width = 780.000000000000000000
+      Size.Height = 40.000000000000000000
+      TextSettings.Font.Size = 14.000000000000000000
+    end
+  end
+  inherited Image1: TImage
+    Position.Y = 1195.000000000000000000
+    Size.Width = 780.000000000000000000
+  end
+end
